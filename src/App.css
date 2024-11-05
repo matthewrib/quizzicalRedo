@@ -1,42 +1,94 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Karla", 'Times New Roman', Times, serif;
+  color: #293264
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0px 75px;
+  background-color: #F5F7FB;
+}
+
+#introContainer {
+  margin: auto;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#introTitle {
+  margin-bottom: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#introDescription {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#introStart {
+  width: 190px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  font-family: inherit;
+  margin-top: 20px;
 }
 
-.card {
-  padding: 2em;
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  margin: auto;
+  height: 100%;
+  text-align: center;
 }
 
-.read-the-docs {
-  color: #888;
+.questionContainer {
+  border-bottom: 1px solid #DBDEF0;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.question {
+  margin-bottom: 12px;
+}
+
+.questionAnswer {
+  box-sizing: border-box;
+  margin-right: 13px; 
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #F5F7FB;
+  padding: 4px 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+#introStart {
+  width: 190px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  font-family: inherit;
+  margin-top: 20px;
+}
+
+#checkAnswers {
+  align-self: center;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }

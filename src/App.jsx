@@ -3,6 +3,7 @@ import Intro from "./components/Intro.jsx"
 import Question from "./components/Question.jsx"
 import { nanoid } from "nanoid"
 import He from "he"
+import "./App.css"
 
 export default function App() {
     const [gameState, setGameState] = useState(false);
